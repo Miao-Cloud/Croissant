@@ -1,0 +1,43 @@
+body {
+  background: #ffebc3;
+}
+.container {
+  background: #fcdd9e;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 90px auto;
+  max-width: 1000px;
+}
+h1 {
+  text-align: center;
+  color: #302a1c;
+}
+
+p {
+  text-align: center;
+  font-size: 17.5px;
+  color: #302a1c;
+  padding: 10px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+img {
+  display: block;
+  max-width: 800px;
+  margin: 0 auto;
+  border-radius: 10px;
+  transition: all 200ms ease-in-out;
+}
+img:hover {
+  transform: scale(1.5);
+}
+
+footer {
+  text-align: center;
+  margin: 10px;
+}
+
+footer a {
+  margin: 0 10px;
+  color: red;
+}
